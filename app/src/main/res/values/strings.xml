@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">P2PMessaging</string>
+    <string name="register">REGISTER</string>
+    <string name="number_register">Number:</string>
+    <string name="last_name_register">Last name:</string>
+    <string name="first_name_register">First name:</string>
+    <string name="addButton">ADD</string>
+    <string name="password_register">Password:</string>
+    <string name="repeat_password_register">Retype password:</string>
+    <string name="login">Login</string>
+    <string name="number_hint">Enter number</string>
+    <string name="password_hint">Enter password</string>
+    <string name="registration_hint">Not registered?</string>
+</resources>

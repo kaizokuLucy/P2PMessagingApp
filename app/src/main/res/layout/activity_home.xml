@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lucy.p2pmessagingapp.HomeActivity">
+
+    <Button
+        android:id="@+id/addContactButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Refresh"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="RtlHardcoded"
+        android:onClick="updateContacts"/>
+
+    <ListView
+        android:id="@+id/contactsListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/addContactButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:id="@+id/refreshContactsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/addContactButton"
+        android:text="Find"
+        android:onClick="findContact"/>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/contactsListView"
+        android:layout_toStartOf="@+id/refreshContactsButton"
+        android:ems="10"
+        android:inputType="number" />
+</RelativeLayout>
